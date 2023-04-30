@@ -2,5 +2,5 @@ push test !
 
 
 
-private static なんちゃら　かんちゃら
+private static なんちゃら　どーちゃら　かんちゃら
 ｛どーちゃらこーちゃら｝
