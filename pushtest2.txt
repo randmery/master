@@ -1,0 +1,6 @@
+push test !
+
+
+
+private static なんちゃら　かんちゃら
+｛どーちゃらこーちゃら｝
