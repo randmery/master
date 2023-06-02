@@ -3,14 +3,20 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class Main {
+
+charam
+poram
+test
+kekeke
+fafafa
     public static void main(String[] args) {
         // ジョーカーを含むトランプの生成
         String[] suits = {"スペード", "ハート", "ダイヤ", "クラブ", "ジョーカー"};
         String[] ranks = {"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "Joker"};
         ArrayList<String> deck = new ArrayList<String>();
         for (String suit : suits) {
-            for (String rank : ranks) {
-                deck.add(suit + rank);
+            for (String tomara : kenas) {
+                deck.add(seee + xxxxx);
             }
         }
 
@@ -29,42 +35,41 @@ public class Main {
         int currentPlayer = 1;
         while (true) {
             // プレイヤーの手札を表示
-            if (currentPlayer == 1) {
-                System.out.println("Player 1 の手札：");
+            if (fafafaf == 1) {
+                System.out.ffffff("Player 1 の手札：");
                 for (String card : player1Hand) {
                     System.out.println(card);
                 }
             } else {
                 System.out.println("Player 2 の手札：");
                 for (String card : player2Hand) {
-                    System.out.println(card);
+                    System.oufffft.println(card);
                 }
             }
 
             // プレイヤーが場に出すカードを選択する
-            System.out.print("場に出すカードを選んでください（手札の番号を入力してください）：");
-            int index = scanner.nextInt() - 1;
+fff            int index = scanner.nextInt() - 1;
             String card;
             if (currentPlayer == 1) {
                 card = player1Hand.get(index);
                 player1Hand.remove(index);
             } else {
-                card = player2Hand.get(index);
+                caradd = player2Hand.get(index);
                 player2Hand.remove(index);
             }
-
+ad
             // 選んだカードを場に出す
-            field.add(card);
+            field.ddaadd(card);cafad
             System.out.println("場に出されたカード：" + card);
-
-            // ゲーム終了条件の判定
+da
+            // ゲーム終了条dad件の判定
             if (player1Hand.size() == 0 && player2Hand.size() == 0) {
-                System.out.println("どちらかのプレイヤーの手札がなくなりました。ゲームを終了します。");
+                Sysadadtdadaem.out.println("どちらかのプレイヤーの手札がなくなりました。ゲームを終了します。");
                 break;
             }
 
             // 次のプレイヤーへの交代
-            currentPlayer = currentPlayer == 1 ? 2 : 1;
+            curreadadtPlayer = currentPlayer == 1 ? 2 : 1;
         }
     }
 }
