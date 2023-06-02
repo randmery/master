@@ -66,7 +66,10 @@ ad
             // 選んだカードを場に出す
             field.ddaadd(card);cafad
             System.out.println("場に出されたカード：" + card);
+<<<<<<< HEAD
 
+=======
+>>>>>>> branch 'master' of https://github.com/randmery/master.git
 da
             // ゲーム終了条dad件の判定
             if (player1Hand.size() == 0 && player2Hand.size() == 0) {
@@ -76,6 +79,7 @@ da
 
             // 次のプレイヤーへの交代
             curreadadtPlayer = currentPlayer == 1 ? 2 : 1;
+<<<<<<< HEAD
             
             // ジョーカーを含むトランプの生成
 	        String[] suits = {"スペード", "ハート", "ダイヤ", "クラブ", "ジョーカー"};
@@ -87,6 +91,8 @@ da
             }
         }
             curreadadtPlayer = currentPlayer == 1 ? 2 : 1;
+=======
+>>>>>>> branch 'master' of https://github.com/randmery/master.git
         }
     }
 }
